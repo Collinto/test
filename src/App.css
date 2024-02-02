@@ -1,5 +1,5 @@
 .App{
     display: flex;
      justify-content: space-between;
-    padding: 20px;
+    padding: 2rem;
 }
