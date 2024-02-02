@@ -1,23 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import styles from './App.css';
+import './global.css'
+import PricingCard from './components/pricingCard/pricingCard'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <PricingCard
+      label= "Pro"
+      pricelabel ="#300/"
+      duration = "year"
+      image="/images/Screenshot (3).png"
+      imgA="Menu"
+      />
+      <PricingCard
+      label= "Pro"
+      pricelabel ="#300/"
+      duration = "year"
+      image="/images/Screenshot (3).png"
+      imgA="Menu"
+      />
+      <PricingCard
+      label= "Pro"
+      pricelabel ="#300/"
+      duration = "year"
+      image="/images/Screenshot (3).png"
+      imgA="Menu"
+      />
     </div>
   );
 }
